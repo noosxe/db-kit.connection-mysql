@@ -1,3 +1,3 @@
 "use strict";
 
-module.exports = require('lib/connection.js');
+module.exports = require('./lib/connection.js');
