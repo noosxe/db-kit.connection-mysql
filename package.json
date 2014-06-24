@@ -1,6 +1,6 @@
 {
 	"name": "db-kit.connection-mysql",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "db-kit ORM mysql connection",
 	"author": "Levon Kirakosyan <noosx.e@gmail.com>",
 	"license": "MIT",
