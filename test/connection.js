@@ -21,7 +21,7 @@ describe('Connection', function() {
 
 			expect(Connection.instance({
 				host: 'localhost',
-				port: '3306',
+				port: 3306,
 				user: 'root',
 				password: '',
 				database: 'test',
@@ -31,7 +31,7 @@ describe('Connection', function() {
 			}).options)
 				.to.be.deep.equal({
 					host: 'localhost',
-					port: '3306',
+					port: 3306,
 					user: 'root',
 					password: '',
 					database: 'test',
@@ -52,7 +52,7 @@ describe('Connection', function() {
 
 				return expect(Connection.instance({
 					host: 'localhost',
-					port: '3306',
+					port: 3306,
 					user: 'root',
 					password: '',
 					database: 'test',
@@ -72,7 +72,7 @@ describe('Connection', function() {
 
 				return expect(Connection.instance({
 					host: 'localhost',
-					port: '3306',
+					port: 3306,
 					user: 'root',
 					password: '',
 					database: 'test',
@@ -100,7 +100,7 @@ describe('Connection', function() {
 
 				return expect(Connection.instance({
 					host: 'localhost',
-					port: '3306',
+					port: 3306,
 					user: 'root',
 					password: '',
 					database: 'test',
